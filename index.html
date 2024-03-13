@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      /* Custom class */
+      .custom-gradient {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main w-full h-screen font-['Gilroy ☞']">
+      <div
+        class="container mx-auto custom-gradient p-6 lg:h-full lg:flex items-center justify-center"
+      >
+        <div
+          class="mainbox w-fit h-auto p-6 grid gap-10 :grid-rows-2 lg:grid-cols-3 lg:gap-15 lg:p-8"
+        >
+          <div
+            class="box1 w-64 h-72 bg-white rounded-lg p-1 hover:shadow-2xl hover:shadow-black"
+          >
+            <div
+              class="innerbox1 h-3/4 w-full bg-[#F9F6FE] rounded-t-lg font-semibold px-4"
+            >
+              <div class="first h-1/5 flex items-center justify-between">
+                <h6 class="text-xs font-bold">$120/hr</h6>
+                <i class="ri-bookmark-line text-xl font-normal"></i>
+              </div>
+              <div
+                class="second h-3/5 text-2xl font-normal flex justify-center items-start py-2"
+              >
+                <h1>Senior UI Developer</h1>
+                <img
+                  class="mt-12"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/small/32/long-arrow-right.png"
+                  alt="long-arrow-right"
+                />
+              </div>
+              <div class="third h-1/5 flex gap-0.5 justify-center items-center">
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-black w-1.5"
+                />
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-gray-400 w-5"
+                />
+              </div>
+            </div>
+            <div
+              class="innertext1 h-1/4 flex items-center justify-around pt-2 font-bold"
+            >
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/ios-filled/50/nike.png"
+                alt="nike"
+              />
+              <h4 class="w-16 text-xs mr-8">Senior UI Developer</h4>
+              <button
+                class="bg-black text-white px-3 py-1 rounded-full pb-2 text-xs mr-2"
+              >
+                view
+              </button>
+            </div>
+          </div>
+          <div
+            class="box2 w-64 h-72 bg-white rounded-lg p-1 hover:shadow-2xl hover:shadow-black"
+          >
+            <div
+              class="innerbox2 h-3/4 w-full bg-[#FEF4E3] rounded-t-lg font-semibold px-4"
+            >
+              <div class="first h-1/5 flex items-center justify-between">
+                <h6 class="text-xs font-bold">$150/hr</h6>
+                <i class="ri-bookmark-line text-xl font-normal"></i>
+              </div>
+              <div
+                class="second h-3/5 text-2xl font-normal flex justify-between items-start py-2"
+              >
+                <h1>Senior <br />Backend <br />Engineer</h1>
+                <img
+                  class="mt-12"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/small/32/long-arrow-right.png"
+                  alt="long-arrow-right"
+                />
+              </div>
+              <div class="third h-1/5 flex gap-0.5 justify-center items-center">
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-black w-1.5"
+                />
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-gray-400 w-5"
+                />
+              </div>
+            </div>
+            <div
+              class="innertext2 h-1/4 flex items-center justify-around pt-2 font-bold"
+            >
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/color/48/google-logo.png"
+                alt="google-logo"
+              />
+              <h4 class="w-18 text-xs mr-4">Senior Backend <br />Engineer</h4>
+              <button
+                class="bg-black text-white px-3 py-1 rounded-full pb-2 text-xs mr-2"
+              >
+                view
+              </button>
+            </div>
+          </div>
+          <div
+            class="box3 w-64 h-72 bg-white rounded-lg p-1 hover:shadow-2xl hover:shadow-black"
+          >
+            <div
+              class="innerbox3 h-3/4 w-full bg-[#F7FCEC] rounded-t-lg font-semibold px-4"
+            >
+              <div class="first h-1/5 flex items-center justify-between">
+                <h6 class="text-xs font-bold">$125-145/hr</h6>
+                <i class="ri-bookmark-line text-xl font-normal"></i>
+              </div>
+              <div
+                class="second h-3/5 text-2xl font-normal flex justify-center items-start py-2"
+              >
+                <h1>Azure Data Engineer</h1>
+                <img
+                  class="mt-12"
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/small/32/long-arrow-right.png"
+                  alt="long-arrow-right"
+                />
+              </div>
+              <div class="third h-1/5 flex gap-0.5 justify-center items-center">
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-black w-1.5"
+                />
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-gray-400 w-5"
+                />
+              </div>
+            </div>
+            <div
+              class="innertext3 h-1/4 flex items-center justify-around pt-2 font-bold"
+            >
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/color/48/airbnb.png"
+                alt="airbnb"
+              />
+              <h4 class="w-16 text-nowrap text-xs mr-8">
+                Azure Data <br />
+                Engineer
+              </h4>
+              <button
+                class="bg-black text-white px-3 py-1 rounded-full pb-2 text-xs mr-2"
+              >
+                view
+              </button>
+            </div>
+          </div>
+          <div
+            class="box4 w-64 h-72 bg-white rounded-lg p-1 hover:shadow-2xl hover:shadow-black"
+          >
+            <div
+              class="innerbox4 h-3/4 w-full bg-[#F7FCEC] rounded-t-lg font-semibold px-4"
+            >
+              <div class="first h-1/5 flex items-center justify-between">
+                <h6 class="text-xs font-bold">$125-145/hr</h6>
+                <i class="ri-bookmark-line text-xl font-normal"></i>
+              </div>
+              <div
+                class="second h-3/5 text-2xl font-normal flex justify-center items-start py-2"
+              >
+                <h1>Azure Data Engineer</h1>
+                <img
+                  class="mt-12"
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/small/32/long-arrow-right.png"
+                  alt="long-arrow-right"
+                />
+              </div>
+              <div class="third h-1/5 flex gap-0.5 justify-center items-center">
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-black w-1.5"
+                />
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-gray-400 w-5"
+                />
+              </div>
+            </div>
+            <div
+              class="innertext4 h-1/4 flex items-center justify-around pt-2 font-bold"
+            >
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/color/48/airbnb.png"
+                alt="airbnb"
+              />
+              <h4 class="w-16 text-nowrap text-xs mr-8">
+                Azure Data <br />
+                Engineer
+              </h4>
+              <button
+                class="bg-black text-white px-3 py-1 rounded-full pb-2 text-xs mr-2"
+              >
+                view
+              </button>
+            </div>
+          </div>
+          <div
+            class="box5 w-64 h-72 bg-white rounded-lg p-1 hover:shadow-2xl hover:shadow-black"
+          >
+            <div
+              class="innerbox2 h-3/4 w-full bg-[#FEFEFE] rounded-t-lg font-semibold px-4"
+            >
+              <div class="first h-1/5 flex items-center justify-between">
+                <h6 class="text-xs font-bold">$150/hr</h6>
+                <i class="ri-bookmark-line text-xl font-normal"></i>
+              </div>
+              <div
+                class="second h-3/5 text-2xl font-normal flex justify-between items-start py-2"
+              >
+                <h1>Senior <br />Backend <br />Engineer</h1>
+                <img
+                  class="mt-12"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/small/32/long-arrow-right.png"
+                  alt="long-arrow-right"
+                />
+              </div>
+              <div class="third h-1/5 flex gap-0.5 justify-center items-center">
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-black w-1.5"
+                />
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-gray-400 w-5"
+                />
+              </div>
+            </div>
+            <div
+              class="innertext2 h-1/4 flex items-center justify-around pt-2 font-bold"
+            >
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/color/48/google-logo.png"
+                alt="google-logo"
+              />
+              <h4 class="w-18 text-xs mr-4">Senior Backend <br />Engineer</h4>
+              <button
+                class="bg-black text-white px-3 py-1 rounded-full pb-2 text-xs mr-2"
+              >
+                view
+              </button>
+            </div>
+          </div>
+          <div
+            class="box6 w-64 h-72 bg-white rounded-lg p-1 hover:shadow-2xl hover:shadow-black"
+          >
+            <div
+              class="innerbox6 h-3/4 w-full bg-[#F9F0F0] rounded-t-lg font-semibold px-4"
+            >
+              <div class="first h-1/5 flex items-center justify-between">
+                <h6 class="text-xs font-bold">$120/hr</h6>
+                <i class="ri-bookmark-line text-xl font-normal"></i>
+              </div>
+              <div
+                class="second h-3/5 text-2xl font-normal flex justify-center items-start py-2"
+              >
+                <h1>Senior UI Developer</h1>
+                <img
+                  class="mt-12"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/small/32/long-arrow-right.png"
+                  alt="long-arrow-right"
+                />
+              </div>
+              <div class="third h-1/5 flex gap-0.5 justify-center items-center">
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-black w-1.5"
+                />
+                <hr
+                  class="border-t-4 border-b-0 border-dotted border-gray-400 w-5"
+                />
+              </div>
+            </div>
+            <div
+              class="innertext6 h-1/4 flex items-center justify-around pt-2 font-bold"
+            >
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/ios-filled/50/nike.png"
+                alt="nike"
+              />
+              <h4 class="w-16 text-xs mr-8">Senior UI Developer</h4>
+              <button
+                class="bg-black text-white px-3 py-1 rounded-full pb-2 text-xs mr-2"
+              >
+                view
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
